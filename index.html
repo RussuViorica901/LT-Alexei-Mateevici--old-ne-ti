@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Școala mea</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/lightbox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+</head>
+
+<body>
+
+    <div id="menu-btn" onclick="menu()">
+        <i id="hamburger" class="fas fa-bars"></i>
+        <i id="close" class="fas fa-times hidden"></i>
+    </div>
+
+    <navbar id="side-menu">
+        <div id="menu-logo">
+            <i class="fas fa-graduation-cap"></i>
+        </div>
+        <a href="#despre" onclick="menu()">Despre noi</a>
+        <a href="#merite" onclick="menu()">Merite</a>
+        <a href="#galerie" onclick="menu()">Galerie</a>
+        <a href="#orar" onclick="menu()">Orar</a>
+        <a href="#contacte" onclick="menu()">Contacte</a>
+        <a href="pages/noutati.html" onclick="menu()">Noutăți</a>
+    </navbar>
+
+    <main id="main">
+        <section id="intro">
+            <div id="intro-content">
+                <h1 data-aos="zoom-in">
+                    Liceul Teoretic<br /> "Alexei Mateevici"</h1>
+                <a data-aos="zoom-in" data-aos-delay="500" href="#despre">Află mai mult</a>
+            </div>
+        </section>
+
+        <section id="despre">
+            <div class="centered" data-aos="fade-up">
+                <h1>Despre noi</h1>
+                <p>
+                    Dragi colegi, părinți și elevi!
+                    <hr />
+                    Bine ați venit pe pagina web a Instituţiei Publice Liceul Teoretic ”Alexei Mateevici” din oraşul
+                    Şoldăneşti,
+                    instituţie membru a Şcolilor Europene pentru o planetă vie, ESFALP (European Schools For a Living
+                    Planet) din 2012, şi instituţie membru al Academiei Şcolilor Central Europene, ACES (Academy of
+                    Central European Schools) din 2016. Graţie proiectelor internaţionale elevii noştri,dar şi
+                    profesorii,
+                    călătoresc în mai multe ţări ale lumii, astfel stabilind parteneriate durabile.
+                    </br>
+                    Vă aşteptăm la liceul nostru!
+                </p>
+                <q>Veni vidi vici</q>
+
+                <div class="cards">
+
+                    <div class="card" data-aos="flip-left" data-aos-delay="300">
+                        <i class="far fa-check-circle"></i>
+                        <h3>Calitate</h3>
+                    </div>
+
+                    <div class="card" data-aos="flip-left" data-aos-delay="600">
+                        <i class="fas fa-book"></i>
+                        <h3>Dedicație</h3>
+                    </div>
+
+                    <div class="card" data-aos="flip-left" data-aos-delay="900">
+                        <i class="fas fa-user-tie"></i>
+                        <h3>Profesionalism</h3>
+                    </div>
+
+                    <div class="card" data-aos="flip-left" data-aos-delay="1200">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Siguranță</h3>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="merite">
+            <div class="centered" data-aos="fade-up">
+                <h1>Merite</h1>
+                <i id="trofeu" class="fas fa-trophy" data-aos="flip-left" data-aos-delay="500"></i>
+                <p>
+                    Liceul nostru este un izvor de cunoştinţe pentru toţi cei care au nevoie de educaţie,centrul
+                    realizărilor în dependenţă de capacităţile fiecăruia. Instituţia ce oferă încredere fiecărei
+                    persoane,unde elevul,indiferent de etnie,este întrebat,ajutat,educat să crească cu astfel de
+                    idealuri şi valori precum bunătatea,corectitudinea,dragostea de ţară şi responsabilitatea;stimulează
+                    reuşita individuală şi tinde să creeze o personalitate integră, desăvârşită,principială şi
+                    sănătoasă,conştientă de propria identitate.
+                </p>
+
+                <div class="merit">
+                    <i class="fas fa-medal medalie"></i>
+                    Participant în cadrul proiectului <i>”Tekwill în fiecare școală”</i>
+
+                </div>
+                <div class="merit">
+                    <i class="fas fa-medal medalie"></i>
+                    Locuri de frunte la olimpiada locală
+                </div>
+
+                <div class="merit">
+                    <i class="fas fa-medal medalie"></i>
+                    Voluntari activi în localitatea natală
+                </div>
+
+                <div class="merit">
+                    <i class="fas fa-medal medalie"></i>
+                    Premianți în cadrul concursului <i>”Hai Moldova# fără deșeuri electronice 2020”</i>
+                </div>
+
+                <div class="slideshow">
+                    <div class="slide">
+                        <div class="nr-slide"> 1/3 </div>
+                        <img src="images/scoala5.jpg" />
+                    </div>
+                    <div class="slide">
+                        <div class="nr-slide"> 2/3 </div>
+                        <img src="images/profesor.jpg" />
+                    </div>
+                    <div class="slide">
+                        <div class="nr-slide"> 3/3 </div>
+                        <img src="images/elevi3.jpg" />
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="galerie">
+            <h1 class="centered">Galerie</h1>
+            <div class="container-galerie">
+                <a href="images/robotica.jfif" target="_blank">
+                    <img src="images/robotica.jfif" data-aos="flip-up">
+                </a>
+                <a href="images/elevi2.jpg" target="_blank">
+                    <img src="images/elevi2.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala1.jpg" target="_blank">
+                    <img src="images/lb chimie.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/clasa-1.jpg" target="_blank">
+                    <img src="images/clasa-1.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/clasa2.jpg" target="_blank">
+                    <img src="images/clasa2.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/biblioteca1.jpg" target="_blank">
+                    <img src="images/biblioteca1.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/cl. calculator.jpg" target="_blank">
+                    <img src="images/cl. calculator.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala3.jpg" target="_blank">
+                    <img src="images/scoala3.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/elevi4.jpg" target="_blank">
+                    <img src="images/elevi4.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/profesor2.jpg" target="_blank">
+                    <img src="images/profesor2.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/cl 1.jpg" target="_blank">
+                    <img src="images/cl 1.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/sport2.jpg" target="_blank">
+                    <img src="images/sport2.jpg" data-aos="flip-up">
+                </a>
+            </div>
+
+            <div class="row">
+                <div class="col-50 video">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Ypom3vl-vHA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-50 video">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/WRjof8MzErM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="orar">
+            <h1 class="centered">Orar</h1>
+            <div class="acordeon">
+                <input type="checkbox" id="clasa-10">
+                <label for="clasa-10"><i class="fas fa-caret-down"></i>Clasa X</label>
+
+                <div class="content">
+                    <a href="images/10A.png">
+                        <div class="clasa">10A</div>
+                        <img src="images/10A.png" />
+                    </a>
+                    <a href="images/10B.jpg">
+                        <div class="clasa">10B</div>
+                        <img src="images/10B.jpg" />
+                    </a>
+                    <a href="images/orar5.jpg">
+                        <div class="clasa">10C</div>
+                        <img src="images/orar5.jpg" />
+                    </a>
+                </div>
+            </div>
+
+            <div class="acordeon">
+                <input type="checkbox" id="clasa-11">
+                <label for="clasa-11"><i class="fas fa-caret-down"></i>Clasa XI</label>
+
+                <div class="content">
+                    <a href="images/orar1.jpg">
+                        <div class="clasa">11A</div>
+                        <img src="images/orar1.jpg" />
+                    </a>
+                    <a href="images/orar5.jpg">
+                        <div class="clasa">11B</div>
+                        <img src="images/orar5.jpg" />
+                    </a>
+                    <a href="images/11C.jpg">
+                        <div class="clasa">11C</div>
+                        <img src="images/11C.jpg" />
+                    </a>
+                </div>
+            </div>
+
+            <div class="acordeon">
+                <input type="checkbox" id="clasa-12">
+                <label for="clasa-12"><i class="fas fa-caret-down"></i>Clasa XII</label>
+
+                <div class="content">
+                    <a href="images/orar2.jpg">
+                        <div class="clasa">12A</div>
+                        <img src="images/orar2.jpg" />
+                    </a>
+                    <a href="images/orar3.jpg">
+                        <div class="clasa">12B</div>
+                        <img src="images/orar3.jpg" />
+                    </a>
+                    <a href="images/orar4.jpg">
+                        <div class="clasa">12C</div>
+                        <img src="images/orar4.jpg" />
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contacte">
+
+            <div class="row">
+
+                <div class="col-50">
+                    <h1 class="centered">Contacte</h1>
+                    <div>
+                        <b>Telefon:</b>
+                        <span>+373 27225524</span>
+                    </div>
+                    <div>
+                        <b>Adresa:</b>
+                        <span>Str. 31 august nr.2</span>
+                    </div>
+                    <div>
+                        <b>Email:</b>
+                        <span>alexeimateevici@gmail.com</span>
+                    </div>
+
+                    <div class="formular-container">
+                        <form id="formular">
+                            <h3>Lasă un mesaj</h3>
+                            <input type="text" id="nume" placeholder="Nume" required>
+                            <br />
+                            <input type="text" id="email" placeholder="Email" required>
+                            <br />
+                            <textarea id="mesaj" rows="4" placeholder="Mesaj" required></textarea>
+                            <br />
+                            <input onclick="send()" type="button" id="transmite" value="Transmite">
+                        </form>
+
+                    </div>
+
+                </div>
+
+                <div class="col-50">
+                    <h1 class="centered">Ne găsiți aici</h1>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10116.994039697387!2d28.783243653312766!3d47.807711044425034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cc6fed11f0b749%3A0xe2a9c2519f31a10!2sliceul%20teoretic%20%22A.Mateevici%22%2C%20R13%2C%20Soldanesti%2C%20Moldova!5e0!3m2!1sen!2s!4v1620835547584!5m2!1sen!2s"
+                        width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="titlu-footer">
+            IP Liceul Alexei Mateevici
+        </div>
+
+        <div class="centered">
+            <a href="https://www.facebook.com/pages/Liceul%20Teoretic%20Alexei%20Mateevici/255090575178314/"
+                target="_blank">
+                <img src="images/fb.png" />
+            </a>
+        </div>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
